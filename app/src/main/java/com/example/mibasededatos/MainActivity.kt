@@ -12,12 +12,10 @@ class MainActivity : AppCompatActivity() {
         //setup
         setup()
     }
-
     private fun setup() {
-        title = "autentificacion"
+        title = "Autenticacion"
 
-        SignUpButton
-
+        SignUpButton.onclick
 
 
     }

@@ -47,23 +47,18 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/SignUpButton"
+                android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Registrar" />
 
-            <Space
-                android:layout_width="8dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
             <Button
-                android:id="@+id/LoginButton"
+                android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Acceder" />
+                android:text="Button" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
